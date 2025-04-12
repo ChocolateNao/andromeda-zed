@@ -351,6 +351,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "module": {
+            "color": "#FFE66D",
+            "font_style": null,
+            "font_weight": null
+          },
           "field": {
             "color": "#00e8c6",
             "font_style": null,
@@ -442,6 +447,12 @@
             "font_weight": null
           },
           "string.special.symbol": {
+            "color": "#96E072",
+            "background_color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "string.special.url": {
             "color": "#96E072",
             "background_color": null,
             "font_style": null,
