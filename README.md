@@ -6,7 +6,7 @@ A popular [VScode theme](https://github.com/EliverLara/Andromeda) ported to [Zed
 > The port also includes an italic variant
 
 <details>
-<summary>Preview (icons from _Catppuccin Icons_ extension)</summary>
+<summary>Preview (icons from <i>Catppuccin Icons</i> extension)</summary>
 <img src="assets/showcase.png"/>
 </details>
 
