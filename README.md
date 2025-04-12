@@ -1,6 +1,6 @@
 # Andromeda Theme for Zed
 
-A popular [VSCode theme](https://github.com/EliverLara/Andromeda) ported to [Zed](https://zed.dev/) with some minor adjustments (since the Zed's [theme_importer](https://github.com/zed-industries/zed/tree/main/crates/theme_importer) still not good enough to seamlessly replicate VSCode themes).
+A popular [VScode theme](https://github.com/EliverLara/Andromeda) ported to [Zed](https://zed.dev/) with some minor adjustments (since the Zed's [theme_importer](https://github.com/zed-industries/zed/tree/main/crates/theme_importer) still not good enough to seamlessly replicate VScode themes).
 
 > [!NOTE]
 > The port also includes an italic variant
