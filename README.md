@@ -5,6 +5,11 @@ A popular [VScode theme](https://github.com/EliverLara/Andromeda) ported to [Zed
 > [!NOTE]
 > The port also includes an italic variant
 
+<details>
+<summary>Preview</summary>
+<img src="assets/showcase.png"/>
+</details>
+
 ## Usage
 
 ### Manual Installation
