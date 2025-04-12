@@ -1,0 +1,7 @@
+id = "andromeda"
+name = "Andromeda"
+schema_version = 1
+version = "0.1.0"
+authors = ["ChocolateNao <andrey12q11@gmail.com>"]
+description = "🌒 A popular VSCode theme brought to Zed"
+repository = "https://github.com/ChocolateNao/andromeda-zed"
