@@ -1,0 +1,11 @@
+{
+  "name": "andromeda-zed",
+  "version": "0.1.0",
+  "description": "A popular VScode theme brought to Zed",
+  "scripts": {
+    "italize": "node scripts/italize.js"
+  },
+  "keywords": ["theme", "dark-theme", "dark", "zed"],
+  "author": "Andrey Loginov <andrey12q112@gmail.com> (https://choconao.me/)",
+  "license": "MIT"
+}

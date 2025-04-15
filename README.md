@@ -25,7 +25,21 @@ A popular [VScode theme](https://github.com/EliverLara/Andromeda) ported to [Zed
 3. Search for the __Andromeda__ extension and install it
 
 > [!TIP]
-> After installation, the theme should be set automatically. To select a different variant enter _theme selector: toggle_ in the command palette and select the variant of __Andromeda__ theme in the dropdown
+> After installation, a popup with avaliable variants will appear. You can switch to another variant at any time by entering _theme selector: toggle_ in the command palette and selecting the preferred variant of __Andromeda__ theme in the dropdown
+
+## Development
+
+Variants are developed in a separate file with the same top level `name` field.
+
+Aside from the theme itself, the repository is packed with a script called `italize.js` that can be used to create an italized variant of the theme automatically, for example:
+
+```bash
+# run it directly
+node scripts/italize.js andromeda.json
+
+# or via npm
+npm run italize andromeda.json
+```
 
 ## License
 
