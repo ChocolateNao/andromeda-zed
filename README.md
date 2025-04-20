@@ -33,7 +33,7 @@ Icons come from <a href="https://github.com/catppuccin/zed-icons"><i>Catppuccin 
 
 Variants are developed in a separate file with the same top level `name` field.
 
-To start off, simply clone the repository and install husky hooks:
+To start off, simply clone the repository and install husky hooks.
 
 Aside from the theme itself, the repository is packed with a script called `italize.js` that will automatically create an italized variant of the theme. You don't have to call it manually since there's a git hook for that.
 
