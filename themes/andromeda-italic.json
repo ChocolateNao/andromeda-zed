@@ -74,9 +74,9 @@
         "editor.active_wrap_guide": "#1B1D23",
         "editor.indent_guide": null,
         "editor.indent_guide_active": null,
-        "editor.document_highlight.read_background": null,
-        "editor.document_highlight.write_background": null,
-        "editor.document_highlight.bracket_background": "#746f77",
+        "editor.document_highlight.read_background": "#434A58",
+        "editor.document_highlight.write_background": "#4D5465",
+        "editor.document_highlight.bracket_background": "#4F5666",
         "terminal.background": "#23262e",
         "terminal.foreground": null,
         "terminal.ansi.background": "#23262e",
@@ -91,8 +91,8 @@
         "terminal.ansi.green": "#96E072",
         "terminal.ansi.bright_green": "#5dcd26",
         "terminal.ansi.dim_green": null,
-        "terminal.ansi.yellow": "#fbd831",
-        "terminal.ansi.bright_yellow": "#FFE66D",
+        "terminal.ansi.yellow": "#FFE66D",
+        "terminal.ansi.bright_yellow": "#fbd831",
         "terminal.ansi.dim_yellow": null,
         "terminal.ansi.blue": "#7cb7ff",
         "terminal.ansi.bright_blue": "#7cb7ff",
@@ -223,7 +223,7 @@
             "font_weight": null
           },
           "constant": {
-            "color": "#ee5d43",
+            "color": "#74c7ec",
             "background_color": null,
             "font_style": null,
             "font_weight": null
@@ -383,7 +383,7 @@
             "font_style": null,
             "font_weight": null
           },
-          "punctuation.delimeter": {
+          "punctuation.delimiter": {
             "color": "#ee5d43",
             "background_color": null,
             "font_style": null,
@@ -441,7 +441,7 @@
             "font_weight": null
           },
           "string.special": {
-            "color": "#96E072",
+            "color": "#7cb7ff",
             "background_color": null,
             "font_style": null,
             "font_weight": null
@@ -460,6 +460,12 @@
           },
           "tag": {
             "color": "#f92672",
+            "background_color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#D5CED9",
             "background_color": null,
             "font_style": null,
             "font_weight": null
