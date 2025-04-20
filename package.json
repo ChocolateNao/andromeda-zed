@@ -3,9 +3,18 @@
   "version": "0.1.0",
   "description": "A popular VScode theme brought to Zed",
   "scripts": {
-    "italize": "node scripts/italize.js"
+    "italize": "node scripts/italize.js",
+    "prepare": "husky"
   },
-  "keywords": ["theme", "dark-theme", "dark", "zed"],
+  "keywords": [
+    "theme",
+    "dark-theme",
+    "dark",
+    "zed"
+  ],
   "author": "Andrey Loginov <andrey12q112@gmail.com> (https://choconao.me/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
 }

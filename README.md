@@ -6,7 +6,9 @@ A popular [VScode theme](https://github.com/EliverLara/Andromeda) ported to [Zed
 > The port also includes an italic variant
 
 <details>
-<summary>Preview (icons from <i>Catppuccin Icons</i> extension)</summary>
+<summary>Preview</summary>
+Icons come from <a href="https://github.com/catppuccin/zed-icons"><i>Catppuccin Icons</i></a> extension
+
 <img src="assets/showcase.png"/>
 </details>
 
@@ -31,14 +33,17 @@ A popular [VScode theme](https://github.com/EliverLara/Andromeda) ported to [Zed
 
 Variants are developed in a separate file with the same top level `name` field.
 
-Aside from the theme itself, the repository is packed with a script called `italize.js` that can be used to create an italized variant of the theme automatically, for example:
+To start off, simply clone the repository and install husky hooks:
+
+Aside from the theme itself, the repository is packed with a script called `italize.js` that will automatically create an italized variant of the theme. You don't have to call it manually since there's a git hook for that.
 
 ```bash
-# run it directly
-node scripts/italize.js andromeda.json
+# install hooks
+npm i
 
-# or via npm
-npm run italize andromeda.json
+# commit as you normally would
+git add andromeda.json
+git commit -m "feat: my significant contribution"
 ```
 
 ## License
