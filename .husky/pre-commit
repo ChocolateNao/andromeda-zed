@@ -1,0 +1,23 @@
+FILE_NAME="themes/andromeda.json"
+
+CHANGED=$(git diff --cached --name-only --diff-filter=ACM $FILE_NAME)
+
+if [ -z "$CHANGED" ]; then
+  echo "No changes detected in $FILE_NAME - skipping"
+  exit 0
+fi
+
+FILE_PATH=$(node scripts/italize.js andromeda.json)
+
+FILE_PATH=$(echo "$FILE_PATH" | xargs)
+
+if [ -f "$FILE_PATH" ]; then
+  git add "$FILE_PATH" || {
+    echo "Failed to stage: $FILE_PATH"
+    exit 1
+  }
+  echo "Staged: $FILE_PATH"
+else
+  echo "File not found: $FILE_PATH"
+  exit 1
+fi

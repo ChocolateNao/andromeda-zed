@@ -93,7 +93,7 @@ function processThemeFile(inputFilePath, keysToTransform) {
     fs.writeFileSync(outputFilePath, JSON.stringify(transformedData, null, 2));
     fs.appendFileSync(outputFilePath, "\n")
 
-    console.log(`Created ${outputFilePath}`);
+    console.log(outputFilePath);
   } catch (error) {
     console.error("Error processing theme file:", error.message);
   }
