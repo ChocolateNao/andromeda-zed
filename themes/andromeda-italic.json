@@ -223,7 +223,7 @@
             "font_weight": null
           },
           "constant": {
-            "color": "#ee5d43",
+            "color": "#74c7ec",
             "background_color": null,
             "font_style": null,
             "font_weight": null
@@ -383,7 +383,7 @@
             "font_style": null,
             "font_weight": null
           },
-          "punctuation.delimeter": {
+          "punctuation.delimiter": {
             "color": "#ee5d43",
             "background_color": null,
             "font_style": null,
@@ -441,7 +441,7 @@
             "font_weight": null
           },
           "string.special": {
-            "color": "#96E072",
+            "color": "#7cb7ff",
             "background_color": null,
             "font_style": null,
             "font_weight": null
@@ -460,6 +460,12 @@
           },
           "tag": {
             "color": "#f92672",
+            "background_color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag.delimiter": {
+            "color": "#D5CED9",
             "background_color": null,
             "font_style": null,
             "font_weight": null
