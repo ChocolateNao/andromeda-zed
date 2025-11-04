@@ -39,5 +39,5 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         files: |
-          theme/*.json
+          themes/*.json
         token: ${{ secrets.COMMITTER_TOKEN }}
