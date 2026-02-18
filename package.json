@@ -1,6 +1,6 @@
 {
   "name": "andromeda-zed",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A popular VScode theme brought to Zed",
   "scripts": {
     "italicize": "node scripts/italicize.js",
