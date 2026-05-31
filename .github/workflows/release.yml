@@ -41,3 +41,11 @@ jobs:
         files: |
           themes/*.json
         token: ${{ secrets.COMMITTER_TOKEN }}
+
+    - name: Publish extension to the Zed registry
+      uses: huacnlee/zed-extension-action@v2
+      with:
+        extension-name: andromeda
+        push-to: ChocolateNao/extensions
+      env:
+        COMMITTER_TOKEN: ${{ secrets.COMMITTER_TOKEN }}
