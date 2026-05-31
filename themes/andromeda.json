@@ -7,7 +7,13 @@
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
-        "accents": [],
+        "accents": [
+          "#74c7ec",
+          "#96E072",
+          "#ee5d43",
+          "#FFE66D",
+          "#c74ded"
+        ],
         "border": "#1B1D23",
         "border.variant": "#746f77",
         "border.focused": "#746f77",
@@ -140,7 +146,7 @@
         "ignored.background": null,
         "ignored.border": "#1f2229",
         "info": "#969696ff",
-        "info.background": null,
+        "info.background": "#3f5466",
         "info.border": "#1f2229",
         "modified": "#c9ab80",
         "modified.background": "#2b303b",
